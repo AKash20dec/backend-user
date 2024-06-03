@@ -4,7 +4,7 @@ import cors from 'cors';
 const app = express();
 
 app.use(cors({
-    origin: 'https://665de3366c2fed0a14c6aad0--userdashboard20.netlify.app'
+    origin: 'https://665dee9421f2e60ddca0748a--userdashboard20.netlify.app'
 }));
 app.use(json());
 app.use(urlencoded({ extended: true }));
